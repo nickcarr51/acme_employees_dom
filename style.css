@@ -1,0 +1,36 @@
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.employeeCards {
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 30%;
+    margin: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
+.employeeCardsFavorite {
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 30%;
+    margin: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: yellow;
+}
